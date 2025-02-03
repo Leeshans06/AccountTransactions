@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IUwkIjTdfCOlOod4A7ysHU17jsD0fWNKn1OPyUksbZE=",
+  "Source": "UserAccountsService",
+  "BasePath": "_content/UserAccountsService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

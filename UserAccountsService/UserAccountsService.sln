@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAccountsService", "UserAccountsService.csproj", "{8F537D10-A1BB-49B9-9D0D-D242C5F51352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F537D10-A1BB-49B9-9D0D-D242C5F51352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F537D10-A1BB-49B9-9D0D-D242C5F51352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F537D10-A1BB-49B9-9D0D-D242C5F51352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F537D10-A1BB-49B9-9D0D-D242C5F51352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD112DD8-34C0-4479-9E65-83812A273BEB}
+	EndGlobalSection
+EndGlobal
