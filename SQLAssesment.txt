@@ -1,0 +1,103 @@
+
+
+1. CREATE DATABASE test;
+
+2. DROP DATABASE MyDatabase;
+
+3. a)3
+   b)5
+   c)6
+   d)2
+   e)4
+   f)7
+   g)1
+   
+4. D
+
+5.Create Tabe Products(
+	ProductID INT ,
+	ProductName VARCHAR(255),
+	SupplierID INT,
+	CategoryID INT,
+	Unit VARCHAR(255),
+	Price DECIMAL(10,2)
+  );
+  
+6. c.
+
+7. a.
+
+8. a.
+
+9. d.
+
+10. a.
+
+11. b.
+
+12. a.
+
+13. Select * from customers;
+
+14. Select CustomerName,Address from customers;
+
+15.select unique(country) from customers;
+
+16. select * from products where price > 20;
+
+17.SELECT * FROM Customers WHERE Address IS NULL;
+
+18.SELECT * FROM Customers WHERE country IN ('Germany','UK);
+
+19.SELECT * FROM Customers WHERE Country IS NOT NULL AND Country <> 'USA';
+
+20. Select * FROM Products where SupplierID = 1 and CategoryId = 2;
+
+21. SELECT * FROM Products ORDER BY Price DESC;
+
+22. SELECT Top(50) from Customers;
+
+23. SELECT Max(Price) from Products;
+
+24. c.
+
+25. SELECT AVG(Price) AS AveragePrice FROM Products;
+
+26. SELECT SUM(Quantity) AS TotalOrderedProducts FROM OrderDetails;
+
+27.SELECT * FROM Customers WHERE CustomerName LIKE 'B%';
+
+28.SELECT * FROM Customers WHERE CustomerName LIKE 'B%' AND CustomerName LIKE '%O';
+
+29.SELECT * FROM Customers WHERE CustomerName LIKE '_b%';
+
+30. SELECT * FROM Customers WHERE country IN (“Germany“, “UK“, “USA“);
+
+31.SELECT * FROM Products WHERE Price BETWEEN 5 AND 25;
+
+32.a.
+
+33.SELECT Orders.OrderID, Customers.CustomerName FROM Orders, Customers Where Order.CustomerID = Customers. CustomerID;
+
+34.SELECT Orders.OrderID, Customers.CustomerName FROM Orders, Customers Where Order.CustomerID = Customers. CustomerID;
+
+35.SELECT Orders.OrderID, Customers.CustomerName FROM Orders, Customers Where Customers.CustomerID = Orders.CustomerID;
+
+36.SELECT Orders.OrderID, Customers.CustomerName FROM Orders, Customers Where Customers.CustomerID = Orders.CustomerID;
+
+37. D.
+
+38.SELECT ProductID, SUM(Quantity) AS Overall_Quantity FROM OrderDetails GROUP BY ProductID ORDER BY Overall_Quantity DESC;
+
+39.SELECT ProductID, SUM(Quantity) AS Overall_Quantity  
+FROM OrderDetails  
+GROUP BY ProductID  
+HAVING SUM(Quantity) > 100  
+ORDER BY Overall_Quantity DESC;
+
+40.SELECT ProductID, Price,  
+    CASE  
+        WHEN Price < 10 THEN 'Cheap'  
+        ELSE 'Expensive'  
+    END AS Price_Level  
+FROM Products;
